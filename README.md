@@ -14,57 +14,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Project Description: Unsplash API Image Gallery with Dynamic Background Button
+This project is a dynamic image gallery that utilizes the Unsplash API to search for and display images based on user input. The gallery includes an intuitive search bar where users can enter their desired keyword(s) to retrieve relevant images from Unsplash's vast collection.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Upon searching, the program fetches the images from the Unsplash API and presents them in a visually appealing grid layout. When a user clicks on an image, it expands to provide a better view, allowing users to examine the details of the image more closely.
 
-### `npm run build`
+To enhance the user experience, the project incorporates four different buttons that can be clicked to change the background color. These buttons serve as interactive elements and give users the ability to customize their viewing experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application takes advantage of the useContext hook, a feature provided by React, to manage and access data across different components. This enables seamless communication between components, ensuring the efficient transfer of information and providing a smooth user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Additionally, the project includes a button component that offers different styles and appearances for the buttons in the interface. This enhances the visual appeal and adds a touch of personalization to the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall, this image gallery application demonstrates the integration of the Unsplash API, providing users with a convenient way to search for and view images. The dynamic background buttons and use of React's useContext hook contribute to an engaging user experience, making the gallery both visually appealing and highly interactive.
